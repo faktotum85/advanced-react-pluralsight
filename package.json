@@ -13,7 +13,11 @@
         "test": "jest --watch"
     },
     "babel": {
-        "presets": ["react", "env", "stage-2"]
+        "presets": [
+            "react",
+            "env",
+            "stage-2"
+        ]
     },
     "author": "Simon Weller",
     "license": "MIT",
@@ -22,6 +26,7 @@
         "eslint": "^4.19.1",
         "eslint-plugin-react": "^7.7.0",
         "jest": "^22.4.3",
+        "react-test-renderer": "^16.3.2",
         "webpack-cli": "^2.1.2"
     },
     "dependencies": {
