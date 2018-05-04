@@ -1,0 +1,30 @@
+{
+    "name": "advanced-react",
+    "version": "1.0.0",
+    "description": "Advanced React",
+    "main": "lib/server.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "start": "node lib/server.js",
+        "dev": "nodemon --exec babel-node lib/server.js"
+    },
+    "babel": {
+        "presets": ["react", "env", "stage-2"]
+    },
+    "author": "Simon Weller",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-eslint": "^8.2.3",
+        "eslint": "^4.19.1",
+        "eslint-plugin-react": "^7.7.0"
+    },
+    "dependencies": {
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "ejs": "^2.5.9",
+        "express": "^4.16.3"
+    }
+}
