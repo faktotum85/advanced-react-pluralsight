@@ -9,14 +9,11 @@
     "scripts": {
         "start": "node lib/server.js",
         "dev": "nodemon --exec babel-node lib/server.js",
-        "webpack": "webpack -wd"
+        "webpack": "webpack -wd",
+        "test": "jest --watch"
     },
     "babel": {
-        "presets": [
-            "react",
-            "env",
-            "stage-2"
-        ]
+        "presets": ["react", "env", "stage-2"]
     },
     "author": "Simon Weller",
     "license": "MIT",
@@ -24,6 +21,7 @@
         "babel-eslint": "^8.2.3",
         "eslint": "^4.19.1",
         "eslint-plugin-react": "^7.7.0",
+        "jest": "^22.4.3",
         "webpack-cli": "^2.1.2"
     },
     "dependencies": {

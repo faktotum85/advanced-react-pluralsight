@@ -33,7 +33,6 @@ module.exports = {
             {
                 allow: ['info', 'error']
             }
-        ],
-        'arrow-parens': ['error', 'always']
+        ]
     }
 };
